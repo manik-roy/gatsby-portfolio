@@ -83,14 +83,12 @@ main {
 
 @media (min-width: 1500px) {
   footer {
-    background-color: #232741;
     position: fixed;
     bottom: 0;
   }
 }
 
 footer {
-  background-color: #232741;
   position: fixed;
   bottom: 0;
 }
