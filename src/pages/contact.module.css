@@ -51,9 +51,13 @@
 .contactAria {}
 
 .contactAria button {
-  background: #15bd9e;
+  background-image: linear-gradient(to right, #2bde8c, #5ce865);
   border-radius: 100px;
   padding: 10px 30px;
+}
+
+.contactAria button:hover {
+  background-image: linear-gradient(to right, #5ce865, #2bde8c);
 }
 
 .inputbg {
