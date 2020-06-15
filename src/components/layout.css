@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #232741;
+  color: #ffffff !important;
+  /* position: relative; */
+  /* height: 100vh; */
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+html::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #232741;
+}
+
+a {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  #imggg {
+    width: 90%!important;
+  }
+  main {
+    margin-bottom: 90px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .desktopNav {
+    display: none;
+  }
+  #imggg {
+    width: 70%!important;
+  }
+}
+
+.navbar-brand {
+  background-image: linear-gradient(90deg, #2bde8c, #5ce865);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  transition: all .3s;
+}
+
+.navbar-brand:hover {
+  background-image: linear-gradient(90deg, #5ce865, #2bde8c);
+  color: transparent !important;
+}
+
+.cv-download {
+  background: #67B26F;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4ca2cd, #67B26F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 2px;
+}
+
+@media (min-width: 1500px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,44 @@
+.portfolio-area {
+  padding-bottom: 60px;
+}
+
+.card {
+  border: none;
+}
+
+.carditem {
+  transition: .5s;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.carditem:hover {
+  transform: scale(1.01) rotate(1.5deg);
+  /* transform: ; */
+}
+
+.linkArea button {
+  outline: 0;
+  text-transform: uppercase;
+  margin: 5px 10px 20px;
+  border: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  transition: .3s;
+  color: #fff;
+  background: #3a4256;
+}
+
+.linkArea button:hover a{
+  padding: 12px 0px;
+  color: #fff !important;
+}
+.linkArea button:hover {
+  background: #28375d;
+
+}
+
+.linkArea button:focus {
+  outline: 0;
+  border: none;
+}

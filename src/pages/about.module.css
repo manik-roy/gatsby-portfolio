@@ -1,0 +1,78 @@
+.aboutArea h1 {
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.aboutArea p {
+  padding-left: 25px;
+  padding-top: 14px;
+  font-size: 18px;
+}
+
+.detailsArea ul {
+  list-style: none;
+}
+
+.detailsArea ul li strong {
+  min-width: 120px;
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+
+.detailsArea ul li strong:after {
+  content: ":";
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+
+.portfolioImageContainer {
+  border: 15px solid #c1bfc1;
+  border-radius: 10px;
+  position: relative;
+}
+
+.portfolioImageContainer::before {
+  position: absolute;
+  height: 35%;
+  width: 25px;
+  content: "";
+  background-color: #46798d;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 50px 0;
+}
+
+.portfolioImageContainer::after {
+  position: absolute;
+  height: 35%;
+  width: 25px;
+  content: "";
+  background-color: #8b7b9c;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px 0 0 0;
+}
+
+.detailsArea button {
+  outline: 0;
+  margin: 10px 20px;
+  border: none;
+  background-image: linear-gradient( 190deg, #7b73f2, #ff4aab);
+  padding: 12px 25px;
+  font-size: 20px;
+  transition: .3s;
+  color: #fff;
+  border-bottom: 1px solid rgba(#795555, #163517, #fff, 1);
+}
+
+.detailsArea button:hover {
+  background-image: linear-gradient( 90deg, #7b73f2, #ff4aab);
+}
+
+.detailsArea button:focus {
+  outline: 0;
+  border: none;
+}

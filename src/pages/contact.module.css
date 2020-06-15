@@ -1,0 +1,106 @@
+.description {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 47px;
+}
+
+.bar {
+  background-color: #dce6e2;
+  content: '';
+  display: block;
+  height: 8px;
+  left: 0;
+  margin: 0 auto 0 auto;
+  position: relative;
+  right: 0;
+  width: 100px;
+}
+
+.bar::before {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: barAnimation;
+  animation-timing-function: linear;
+  background-color: #101010;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+  left: 40%;
+}
+
+.bar::after {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: barAnimation;
+  animation-timing-function: linear;
+  background-color: #101010;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+  left: 52%;
+}
+
+.contactAria {}
+
+.contactAria button {
+  background: #15bd9e;
+  border-radius: 100px;
+  padding: 10px 30px;
+}
+
+.inputbg {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #15bd9e !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  font-weight: 900 !important;
+}
+
+.inputbg::placeholder {
+  color: #fff;
+  font-weight: 900;
+}
+
+.inputbg:focus {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(64, 224, 208, 0.411) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff;
+}
+
+.contactinfo {}
+
+.contactinfo h4 {
+  font-weight: 600;
+}
+
+.infoDescription {
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 28px;
+}
+
+.infoList {
+  border-left: 2px solid rgba(49, 250, 200, 0.15);
+  padding: 12px 0 12px 22px;
+}
+
+.infoList span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.infoList span a {
+  color: #fff;
+  font-weight: 600;
+}

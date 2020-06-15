@@ -1,0 +1,9 @@
+.post {
+  
+  background: #90929f;
+}
+
+.post a h2 {
+  text-transform: capitalize;
+  color: aliceblue;
+}

@@ -1,0 +1,125 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.copyrightAria {}
+
+.miniFooter {
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.miniFooter p {
+  margin: 0;
+  line-height: 26px;
+  font-size: 15px;
+  color: #fff !important;
+}
+
+.miniFooter p a {
+  color: #5867dd
+}
+
+.miniFooter p a:hover {
+  color: #34bfa3
+}
+
+.forMobile ul li a {
+  justify-content: space-between !important;
+  margin: 5px;
+}
+
+.footerMenu div ul li a {
+  color: #ffffff !important;
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) {
+  .footerMenu {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+  .footerMenu {
+    display: none;
+  }
+  .forMobile {
+    display: none;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .miniFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .forMobile {
+    display: none;
+  }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .copyrightAria {
+    display: none;
+  }
+  .forMobile {
+    display: block;
+  }
+  .footerMenu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+  .copyrightAria {
+    display: none;
+  }
+  .forMobile {
+    display: block;
+  }
+  .footerMenu {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .forMobile {
+    display: block;
+  }
+  .copyrightAria {
+    display: none;
+  }
+  footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+}
