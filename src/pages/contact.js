@@ -119,7 +119,7 @@ const Contact = () => {
               <li>
                 <div className="media align-items-center"><span className="info-icon"><i className="icon ion-md-send"></i></span>
                   <div className={classes.infoList}>
-                    <h6 className="info-type">Email Me</h6><span className="info-value"><a href="mailto:cmdpi15@gmail.com">cmdpi15@gmail.com</a></span>
+                    <h6 className="info-type">Email Me</h6><span className="info-value"><a href="mailto:cmdpi15@gmail.com">cm.dpi15@gmail.com</a></span>
                   </div>
                 </div>
               </li>
