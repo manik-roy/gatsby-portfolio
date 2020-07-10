@@ -80,6 +80,9 @@ main {
 .cv-download:hover {
   background-image: linear-gradient(to right, #5ce865, #2bde8c);
 }
+.nav-link:hover {
+  color: #2bde8c !important;
+}
 
 @media (min-width: 1500px) {
   footer {

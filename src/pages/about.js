@@ -37,10 +37,10 @@ const About = () => {
                     <li><strong>Languages</strong> {Person.languages}</li>
                     <li><strong>Address</strong> {Person.address}</li>
                     <li><strong>Freelance</strong> {Person.freelance}</li>
-                    <li><strong>E-mail</strong> {Person.email}</li>
+                    <li><strong>E-mail</strong> <a href="mailto:cm.dpi15@gmail.com">{Person.email}</a> </li>
                     <li><strong>Phone</strong> {Person.phone}</li>
                   </ul>
-                  <button className="text-uppercase"> <a href="http://freepdfhosting.com/73a1f9ce2e.pdf"  rel="noopener noreferrer" target="_blank"> Download cv</a></button>
+                  <button className="text-uppercase"> <a href="http://freepdfhosting.com/73a1f9ce2e.pdf" rel="noopener noreferrer" target="_blank"> Download cv</a></button>
                 </div>
               </div>
             </div>
@@ -52,5 +52,3 @@ const About = () => {
 };
 
 export default About;
-// https://i.ibb.co/sJwhmKs/port2.png
-// https://i.ibb.co/wrGChtf/port.png

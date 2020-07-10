@@ -56,11 +56,21 @@
   border-radius: 50px 0 0 0;
 }
 
+.detailsArea a {
+  color: #fff !important;
+}
+
 .detailsArea button {
   outline: 0;
   margin: 10px 20px;
   border: none;
-  background-image: linear-gradient( 190deg, #7b73f2, #ff4aab);
+  background-image: linear-gradient(to right, #2bde8c, #5ce865);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2bde8c, #5ce865);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2bde8c, #5ce865);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 2px;
   padding: 12px 25px;
   font-size: 20px;
   transition: .3s;
@@ -69,7 +79,7 @@
 }
 
 .detailsArea button:hover {
-  background-image: linear-gradient( 90deg, #7b73f2, #ff4aab);
+  background-image: linear-gradient(to right, #5ce865, #2bde8c);
 }
 
 .detailsArea button:focus {

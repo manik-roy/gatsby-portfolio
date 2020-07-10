@@ -1,7 +1,7 @@
 
 const Person = {
   name: 'Manik Roy',
-  age: '18',
+  age: 22,
   nationality: 'Bangladeshi',
   languages: 'Bengali, English',
   address: 'Dhaka, Bangladesh',
@@ -19,42 +19,42 @@ const Person = {
     {
       img: 'https://i.ibb.co/p213QhN/image.png',
       link: 'https://foodpandas.netlify.app',
-      git:'https://github.com/manik-roy/hot-onion-restaurant',
+      git: 'https://github.com/manik-roy/hot-onion-restaurant',
       title: 'Red Onion',
       description: 'A full-stack restaurant app where you can order your favorite food from the menu. You have options for breakfast, lunch, and dinner. Pay online using your credit card and enjoy the most delicious dummy food'
     },
     {
       img: 'https://i.ibb.co/0GhNLPk/image.png',
       link: 'https://doctori.netlify.app/',
-      git:'https://github.com/manik-roy/doctor-portal',
+      git: 'https://github.com/manik-roy/doctor-portal',
       title: 'Doctor Portal',
       description: 'A full-stack app where you can pick the date and time and fix an appointment with your doctor. A doctor can review his appointments and prescribe medicine to a patient.'
     },
     {
       img: 'https://i.ibb.co/8xZJsw8/image.png',
       link: 'https://matarial-ui-react-dashboard.netlify.app/',
-      git:'https://github.com/manik-roy/react-dashboard',
+      git: 'https://github.com/manik-roy/react-dashboard',
       title: 'React Dashboard',
       description: 'React Dashboard is a react dashboard template built with Material-UI framework. This react template will be a great start to built a front-end for SAAS, E-Commerce, IoT dashboard or whatever web app you like'
     },
     {
       img: 'https://i.ibb.co/fDCm8gS/image.png',
       link: 'https://cmmanik-money.herokuapp.com/',
-      git:'https://github.com/cmmanik/money-management',
+      git: 'https://github.com/cmmanik/money-management',
       title: 'Money Management',
       description: 'A full-stack app where users can see their expense money and income money. And see the monthly report'
     },
     {
       img: 'https://i.ibb.co/hZzYQJk/image.png',
       link: 'https://manik-roy.github.io/iitmaa-copy/',
-      git:'https://github.com/manik-roy/iitmaa-copy',
+      git: 'https://github.com/manik-roy/iitmaa-copy',
       title: 'Iitmaa Copy ',
       description: 'This site design for practice. it is a indian site iitmaa. The primary mission of IITMAA is to Reconnect the alumni with their fellow alumni, institute, and students on the campus- Engage through various activities among all the stakeholders-.'
     },
     {
       img: 'https://i.ibb.co/B4MnSMN/image.png',
       link: 'https://shopbd.netlify.app/',
-      git:'https://github.com/manik-roy/happy-shop',
+      git: 'https://github.com/manik-roy/happy-shop',
       title: 'Shop Bd',
       description: 'Shop bd is a e-commerce website. It\'s build with React js, node js, mongoose, express. User can filter product by catagories and they can see their previous order history'
     },
