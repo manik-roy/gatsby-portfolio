@@ -58,6 +58,13 @@ const Person = {
       title: 'Shop Bd',
       description: 'Shop bd is a e-commerce website. It\'s build with React js, node js, mongoose, express. User can filter product by catagories and they can see their previous order history'
     },
+    {
+      img: 'https://i.ibb.co/MCDqLT6/image.png',
+      link: 'https://guraguri.netlify.app/',
+      git: 'https://github.com/manik-roy/travel-guru',
+      title: 'Gura Guri',
+      description: 'Guraguri is a travel website'
+    },
   ],
   blogs: [
     {
