@@ -32,7 +32,7 @@ export default () => {
           <div className={`${classes.socialsIcons} pt-2`} data-sal="slide-top"
             data-sal-delay="700"
             data-sal-easing="ease" >
-            <ul>
+            <ul className="pl-0">
               <li>
                 <a href="https://facebook.com/manikroy89" target="_blank" rel="noopener noreferrer">
                   <div> <FontAwesomeIcon icon={faFacebookF} /> </div>
